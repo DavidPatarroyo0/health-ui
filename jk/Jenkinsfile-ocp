@@ -95,12 +95,12 @@ pipeline {
     }
   }
   environment {
-    UI_Name      = 'health-ui'
+    UI_Name      = 'davidp-health-app'
     func_test    = 'true'
     scan_code    = 'false'
     OCP_SERVER   = 'https://api.crc.testing:6443'
     OCP_USER     = credentials('OCP_USER')
     OCP_PASS     = credentials('OCP_PASS')
-    NS           = 'MY-PROJECT-NAME'
+    NS           = 'davidp-health-app'
   }
 }
